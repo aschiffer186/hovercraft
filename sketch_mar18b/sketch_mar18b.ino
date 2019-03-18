@@ -10,7 +10,7 @@ struct Channel {
 };
 
 void Channel_init(Channel & channel, int in_min_val, int in_max_val, int in_channel_num) {
-  
+  //
 }
 
 //Scales input from receiver to values useful to motors and servos

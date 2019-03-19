@@ -1,7 +1,7 @@
-#include<StandardCplusCplus.h>
-#include<vector>
-#include<math.h>
-#include<Servo.h>
+#include<StandardCplusplus.h>
+#include <vector>
+#include <math.h>
+#include <Servo.h>
 
 struct Channel {
   double min_val;
@@ -19,17 +19,17 @@ int scale_input(const Channel & c, int value) {
 }
 
 //Initializes the 5 channels with the proper minimum/maximum values and channel number
-void initialize_channels(vector<Channel> & c, const int* min_max_array) {
+void initialize_channels(std::vector<Channel> & c, const int* min_max_array) {
   
 }
 
-void calculate_average(const vector<int> & vec) {
+void calculate_average(const std::vector<int> & vec) {
   
 }
 
 //Minimum and maximum values for each channel.  Format: channel 1 - min value, channel 1 - max value, 
 //channel 2 - min value, channel 2 - max value, etc.
-const int min_max_arr[10] = {0, 0, 0, 0, 0 , 0, 0, 0, 0, 0};
+const std::vector<int> min_max_values = {0, 0, 0, 0, 0 , 0, 0, 0, 0, 0};
 
 //Pins will change according to our wiring harness
 //Channel input pins here
